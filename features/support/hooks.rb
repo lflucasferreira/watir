@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Before do
-  @browser = BROWSER
+  @browser = DRIVER
   @browser.window.maximize
 end
 

@@ -3,4 +3,4 @@
 require 'watir'
 
 Watir.default_timeout = 10
-BROWSER = Watir::Browser.new(:chrome)
+DRIVER = Watir::Browser.new(:chrome)
